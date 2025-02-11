@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Spice Weave</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-logo">
+            <h1>SPICE WEAVE</h1>
+        </div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="shop.html">Collections</a>
+            <a href="cart.html" class="cart-icon">
+                Cart <span class="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="product-main">
+        <div class="product-container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <!-- Main product image will be loaded here -->
+                </div>
+                <div class="thumbnail-images">
+                    <!-- Thumbnail images will be loaded here -->
+                </div>
+            </div>
+            <div class="product-details">
+                <h1 class="product-title"><!-- Product title will be loaded here --></h1>
+                <p class="product-price"><!-- Price will be loaded here --></p>
+                <div class="product-description">
+                    <!-- Product description will be loaded here -->
+                </div>
+                <div class="product-options">
+                    <div class="size-selector">
+                        <label for="size">Size</label>
+                        <select id="size">
+                            <option value="xs">XS</option>
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                        </select>
+                    </div>
+                    <div class="quantity-selector">
+                        <label for="quantity">Quantity</label>
+                        <input type="number" id="quantity" value="1" min="1">
+                    </div>
+                </div>
+                <button class="add-to-cart-button">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/animations.js"></script>
+    <script src="../js/product.js"></script>
+</body>
+</html> 
