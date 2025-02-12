@@ -6,3 +6,11 @@ sizeOptions.forEach(option => {
         option.classList.add('selected');
     });
 });
+
+function changeQuantity(amount) {
+    const quantityInput = document.getElementById('quantity');
+    let currentValue = parseInt(quantityInput.value);
+    currentValue += amount;
+    if (currentValue < 1) currentValue = 1; // Prevent going below 1
+    quantityInput.value = currentValue;
+}
