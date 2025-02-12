@@ -6,6 +6,7 @@
     <title>Product Details - Spice Weave</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/product-styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
@@ -27,35 +28,38 @@
         <div class="product-container">
             <div class="product-gallery">
                 <div class="main-image">
-                    <!-- Main product image will be loaded here -->
+                    <img src="..\Images\Prod1.png" alt="Product Image">
                 </div>
                 <div class="thumbnail-images">
                     <!-- Thumbnail images will be loaded here -->
                 </div>
             </div>
-            <div class="product-details">
-                <h1 class="product-title"><!-- Product title will be loaded here --></h1>
-                <p class="product-price"><!-- Price will be loaded here --></p>
-                <div class="product-description">
-                    <!-- Product description will be loaded here -->
-                </div>
-                <div class="product-options">
-                    <div class="size-selector">
-                        <label for="size">Size</label>
-                        <select id="size">
-                            <option value="xs">XS</option>
-                            <option value="s">S</option>
-                            <option value="m">M</option>
-                            <option value="l">L</option>
-                            <option value="xl">XL</option>
-                        </select>
+            <div class="product-details-container">
+                <div class="product-details">
+                    <h1 class="product-title">LaLaLand X VanGogh</h1>
+                    <p class="product-price">₹ 300</p>
+                    <div class="product-description">
+                        <p>A blend of futuristic neons, graffiti street art, and edgy funk vibes, celebrating the journey of self-discovery and fearlessness. This tribute captures the adrenaline-fueled wilderness, daring risks, and carefree spirit that define youth—living boldly, embracing the unknown, and finding strength in adventure, rebellion, and pure freedom.</p>
                     </div>
-                    <div class="quantity-selector">
-                        <label for="quantity">Quantity</label>
-                        <input type="number" id="quantity" value="1" min="1">
+                    <div class="product-options">
+                        <div class="size-selector">
+                            <label for="size">Size</label>
+                            <div class="size-options">
+                                <div class="size-option" data-value="xs">XS</div>
+                                <div class="size-option" data-value="s">S</div>
+                                <div class="size-option selected" data-value="m">M</div>
+                                <div class="size-option" data-value="l">L</div>
+                                <div class="size-option" data-value="xl">XL</div>
+                                <div class="size-option" data-value="xxl">XXL</div>
+                            </div>
+                        </div>
+                        <div class="quantity-selector">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" id="quantity" class="quantity-input" value="1" min="1">
+                        </div>
                     </div>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <button class="add-to-cart-button">Add to Cart</button>
             </div>
         </div>
     </main>
