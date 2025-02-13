@@ -213,47 +213,68 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     .product-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* Stack elements vertically on mobile */
+        align-items: center; /* Center align items */
+        width: 100%; /* Ensure full width */
+        overflow: hidden; /* Prevent overflow */
     }
 
     .product-gallery {
-        margin-right: 0;
-        margin-bottom: var(--spacing-unit);
+        margin-right: 0; /* Remove right margin for mobile */
+        margin-bottom: var(--spacing-unit); /* Add bottom margin for spacing */
+        width: 100%; /* Ensure full width */
     }
 
     .main-image img {
-        max-width: 100%;
-        height: auto;
-        margin-bottom: var(--spacing-unit);
+        max-width: 100%; /* Ensure image is responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: var(--spacing-unit); /* Add space below the image */
+        display: block; /* Ensure the image is treated as a block element */
     }
 
     .product-details-container {
-        padding-left: 0;
-        margin-top: 2rem;
+        padding-left: 0; /* Remove left padding on mobile */
+        margin-top: 0; /* Adjust margin for better spacing */
+        width: 100%; /* Ensure full width */
+        overflow: hidden; /* Prevent overflow */
+        text-align: center; /* Center align text */
     }
 
     .product-title {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Adjust font size for mobile */
+        margin: 0.5rem 0; /* Add margin for spacing */
     }
 
     .product-price {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Adjust font size for mobile */
+        margin: 0.5rem 0; /* Add margin for spacing */
     }
 
     .product-description {
-        font-size: 0.8rem;
+        font-size: 0.9rem; /* Adjust font size for mobile */
+        padding: 0 var(--spacing-unit); /* Add padding to prevent overflow */
+        margin: 1rem 0; /* Add margin for spacing */
     }
 
     .size-options {
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* Allow size options to wrap on mobile */
+        justify-content: center; /* Center align size options */
+        margin: 1rem 0; /* Add margin for spacing */
+    }
+
+    .quantity-selector {
+        display: flex; /* Ensure quantity selector is flex */
+        align-items: center; /* Center align items */
+        margin: 1rem 0; /* Add margin for spacing */
     }
 
     .quantity-input {
-        width: 60px;
+        width: 60px; /* Adjust input width for mobile */
     }
 
     .add-to-cart-button {
-        padding: 0.8rem;
+        padding: 0.8rem; /* Adjust padding for mobile */
+        width: 100%; /* Ensure full width */
+        margin-top: 1rem; /* Add margin for spacing */
     }
 }
