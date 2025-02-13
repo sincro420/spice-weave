@@ -230,11 +230,12 @@
         height: auto; /* Maintain aspect ratio */
         margin-bottom: var(--spacing-unit); /* Add space below the image */
         display: block; /* Ensure the image is treated as a block element */
+        margin-top: 20px; /* Move the image down */
     }
 
     .product-details-container {
         padding-left: 0; /* Remove left padding on mobile */
-        margin-top: 0; /* Adjust margin for better spacing */
+        margin-top: -20px; /* Move the details section up */
         width: 100%; /* Ensure full width */
         overflow: hidden; /* Prevent overflow */
         text-align: center; /* Center align text */
