@@ -224,6 +224,8 @@
 
     .main-image img {
         max-width: 100%;
+        height: auto;
+        margin-bottom: var(--spacing-unit);
     }
 
     .product-details-container {
