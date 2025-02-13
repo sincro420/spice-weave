@@ -82,6 +82,14 @@
     margin: 0.5rem 0;
 }
 
+.original-price {
+    font-size: 1.2rem;
+    color: var(--foreground-light);
+    text-decoration: line-through;
+    margin: 1rem 0 -1rem 0;
+    animation: fadeIn 0.5s ease forwards, drift 4.5s ease-in-out infinite;
+}
+
 .product-description {
     font-size: 0.9rem;
     color: var(--foreground-light);

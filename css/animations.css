@@ -1,7 +1,7 @@
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(-10px);
     }
     to {
         opacity: 1;
@@ -51,6 +51,18 @@
     }
     to {
         height: 100vh;
+    }
+}
+
+@keyframes drift {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Move back down */
     }
 }
 
