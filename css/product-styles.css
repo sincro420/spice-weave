@@ -244,7 +244,7 @@
 
     .product-details-container {
         padding-left: 0; /* Remove left padding on mobile */
-        margin-top: -40px; /* Move the product details upwards */
+        margin-top: -50px; /* Move the product details upwards */
         width: 100%; /* Ensure full width */
         overflow: hidden; /* Prevent overflow */
         text-align: center; /* Center align text */
@@ -261,7 +261,7 @@
     }
 
     .product-description {
-        font-size: 0.5rem; /* Adjust font size for mobile */
+        font-size: 0.8rem; /* Adjust font size for mobile */
         padding: 0 var(--spacing-unit); /* Add padding to prevent overflow */
         margin: 1rem 0; /* Add margin for spacing */
     }
