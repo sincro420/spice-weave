@@ -287,4 +287,12 @@
         width: 100%; /* Ensure full width */
         margin-top: 1rem; /* Add margin for spacing */
     }
+
+    .product-gallery .main-image {
+        margin-top: 20px; /* Shift the product image down */
+    }
+
+    .product-details-container {
+        margin-top: -20px; /* Move the product details upwards */
+    }
 }
