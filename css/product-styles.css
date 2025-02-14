@@ -239,12 +239,12 @@
         height: auto; /* Maintain aspect ratio */
         margin-bottom: var(--spacing-unit); /* Add space below the image */
         display: block; /* Ensure the image is treated as a block element */
-        margin-top: 30px; /* Move the image down more noticeably */
+        margin-top: 35px; /* Shift the product image down further */
     }
 
     .product-details-container {
         padding-left: 0; /* Remove left padding on mobile */
-        margin-top: -20px; /* Move the details section up more noticeably */
+        margin-top: -30px; /* Move the product details upwards */
         width: 100%; /* Ensure full width */
         overflow: hidden; /* Prevent overflow */
         text-align: center; /* Center align text */
